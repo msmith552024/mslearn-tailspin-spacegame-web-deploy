@@ -1,0 +1,9 @@
+trigger:
+- main
+
+pool:
+  name: SecureAgents1
+
+steps:
+- script: echo "Hello from SecureAgents1!"
+  displayName: 'Test agent pool connection'
